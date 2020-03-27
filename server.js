@@ -13,9 +13,6 @@ app.use(express.json({ extended: false }));
 // App Config
 app.use(methodOverride("_method"));
 
-app.get("/", (req, res) => {
-  res.send("JSDFLj");
-});
 
 // Define Routes
 app.use("/api/admin", require("./routes/api/Admin/Admin"));

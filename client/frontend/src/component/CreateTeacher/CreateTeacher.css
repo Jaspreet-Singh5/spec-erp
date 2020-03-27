@@ -1,0 +1,26 @@
+
+.CreateTeacherForm {
+    height: max-content;
+    width: 60%;
+    border: .2rem solid #ddd;
+    border-radius: .5rem;
+    margin: 10vh auto 10vh auto;
+}
+
+.Label {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #EA4D23!important;
+  font-size: 1.6rem!important;
+  font-weight: normal!important;
+  text-transform: capitalize!important;
+  width: 100%;
+  border-radius: 0!important;
+  margin-top: 4.5rem!important;
+  margin-left: 1rem!important;
+}
+
